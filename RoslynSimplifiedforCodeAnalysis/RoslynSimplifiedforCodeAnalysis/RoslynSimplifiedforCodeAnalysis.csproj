@@ -144,6 +144,7 @@
   <ItemGroup>
     <Compile Include="Init.cs" />
     <Compile Include="Modules\ClassModule\ClassVirtualizationVisitor.cs" />
+    <Compile Include="Modules\ClassModule\GetAllTheMethodofClass.cs" />
     <Compile Include="Modules\ClassModule\GettheClassListFromProjectModel.cs" />
     <Compile Include="Modules\ProjectModule\AST.cs" />
     <Compile Include="Modules\ProjectModule\CompileProject.cs" />
