@@ -143,15 +143,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Init.cs" />
+    <Compile Include="Modules\ClassModule\ClassVirtualizationVisitor.cs" />
+    <Compile Include="Modules\ClassModule\GettheClassListFromProjectModel.cs" />
+    <Compile Include="Modules\ProjectModule\AST.cs" />
+    <Compile Include="Modules\ProjectModule\CompileProject.cs" />
+    <Compile Include="Modules\ProjectModule\GettheProjectListFromSolutionAST.cs" />
+    <Compile Include="Modules\SolutionModule\AST.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Modules\ClassModule\" />
     <Folder Include="Modules\MethodModule\" />
     <Folder Include="Modules\NamespaceModule\" />
-    <Folder Include="Modules\ProjectModule\" />
-    <Folder Include="Modules\SolutionModule\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
