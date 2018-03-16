@@ -1,0 +1,5 @@
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperTestSubject\bin\Debug\HelperTestSubject.dll
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperTestSubject\bin\Debug\HelperTestSubject.pdb
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperTestSubject\obj\Debug\HelperTestSubject.dll
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperTestSubject\obj\Debug\HelperTestSubject.pdb
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperTestSubject\obj\Debug\HelperTestSubject.csprojResolveAssemblyReference.cache
