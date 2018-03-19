@@ -14,7 +14,7 @@ namespace HelperFunctionUnitTest
         public static void ClassInit(TestContext con)
 
         {
-            solutionpath = ConfigurationManager.AppSettings["TestPath"]+ "RoslynSimplifiedforCodeAnalysis.sln";
+            solutionpath = ConfigurationManager.AppSettings["TestPath"]+ @"HelperTestSubject\HelperTestSubject.sln";
         }
 
         [TestMethod]
