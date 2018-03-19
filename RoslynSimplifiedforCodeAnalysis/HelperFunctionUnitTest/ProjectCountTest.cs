@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule;
 
 namespace HelperFunctionUnitTest
 {
@@ -19,7 +20,7 @@ namespace HelperFunctionUnitTest
         {
             RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
-            RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst projast=new RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst();
+            GettheProjectListFromSolutionAst projast =new GettheProjectListFromSolutionAst();
             var pres=projast.GetProjectNameList(res);
             Assert.AreEqual(pres.Count, 2);
         }
@@ -29,7 +30,7 @@ namespace HelperFunctionUnitTest
         {
             RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
-            RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst projast = new RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst();
+            GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectNameList(res);
             Assert.AreEqual(pres[0], "HelperTestSubject");
         }
@@ -39,7 +40,7 @@ namespace HelperFunctionUnitTest
         {
             RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
-            RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst projast = new RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst();
+            GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectModelList(res);
             Assert.AreEqual(pres.Count, 2);
         }
@@ -49,9 +50,10 @@ namespace HelperFunctionUnitTest
         {
             RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
-            RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst projast = new RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst();
+            GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectModelList(res);
-            Assert.AreEqual(pres.Count, 2);
+            CompileProject cproj =new CompileProject();           
+            Assert.IsNotNull(cproj.Compile(pres[0]));
         }
     }
 }
