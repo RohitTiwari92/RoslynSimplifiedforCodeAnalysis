@@ -11,7 +11,6 @@ namespace HelperFunctionUnitTest
 
         [ClassInitialize]
         public static void ClassInit(TestContext con)
-
         {
             solutionpath = ConfigurationManager.AppSettings["TestPath"] + @"HelperTestSubject\HelperTestSubject.sln";
         }
@@ -23,7 +22,36 @@ namespace HelperFunctionUnitTest
             RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst projast=new RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst();
             var pres=projast.GetProjectNameList(res);
             Assert.AreEqual(pres.Count, 2);
+        }
 
+        [TestMethod]
+        public void TestCheckforProjectNameInSolutionFile()
+        {
+            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            var res = sast.GetAsTfromSolutionFile(solutionpath);
+            RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst projast = new RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst();
+            var pres = projast.GetProjectNameList(res);
+            Assert.AreEqual(pres[0], "HelperTestSubject");
+        }
+
+        [TestMethod]
+        public void TestCountProjectModelsInSolutionFile()
+        {
+            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            var res = sast.GetAsTfromSolutionFile(solutionpath);
+            RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst projast = new RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst();
+            var pres = projast.GetProjectModelList(res);
+            Assert.AreEqual(pres.Count, 2);
+        }
+
+        [TestMethod]
+        public void TestProjectCompilation()
+        {
+            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            var res = sast.GetAsTfromSolutionFile(solutionpath);
+            RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst projast = new RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule.GettheProjectListFromSolutionAst();
+            var pres = projast.GetProjectModelList(res);
+            Assert.AreEqual(pres.Count, 2);
         }
     }
 }
