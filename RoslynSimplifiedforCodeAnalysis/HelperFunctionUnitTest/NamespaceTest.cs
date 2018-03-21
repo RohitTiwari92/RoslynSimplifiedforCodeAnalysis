@@ -45,7 +45,7 @@ namespace HelperFunctionUnitTest
             var pcomp = cproj.Compile(pres[0]).Result;
             GettheNamespaceListFromProjectModel gprj = new GettheNamespaceListFromProjectModel();
             var resc = gprj.GetNamespaceNameList(pcomp);
-            Assert.AreEqual(resc[0], "");
+            Assert.AreEqual(resc[0], "HelperTestSubject");
 
         }
     }
