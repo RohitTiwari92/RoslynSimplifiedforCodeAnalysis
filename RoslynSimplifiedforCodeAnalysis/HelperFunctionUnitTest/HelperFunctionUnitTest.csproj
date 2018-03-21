@@ -216,6 +216,7 @@
     <Compile Include="SolutionASTTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProjectCountTest.cs" />
+    <Compile Include="NamespaceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

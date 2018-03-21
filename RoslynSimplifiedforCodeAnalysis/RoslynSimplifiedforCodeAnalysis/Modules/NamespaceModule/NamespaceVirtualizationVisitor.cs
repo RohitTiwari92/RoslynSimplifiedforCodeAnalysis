@@ -18,11 +18,13 @@ namespace RoslynSimplifiedforCodeAnalysis.Modules.NamespaceModule
 
         public List<NamespaceDeclarationSyntax> Namespaces { get; set; }
 
-        public  SyntaxNode VisitClassDeclaration(NamespaceDeclarationSyntax node)
+        public override SyntaxNode VisitNamespaceDeclaration(NamespaceDeclarationSyntax node)
         {
-            node = (NamespaceDeclarationSyntax)VisitNamespaceDeclaration(node);
+            //node = (NamespaceDeclarationSyntax)VisitNamespaceDeclaration(node);
             Namespaces.Add(node); // save your visited classes
+            base.VisitNamespaceDeclaration(node);
             return node;
+
         }
     }
 }

@@ -20,7 +20,7 @@ namespace RoslynSimplifiedforCodeAnalysis.Modules.NamespaceModule
                 NamespaceVisitor.Visit(syntaxTree.GetRoot());
                 foreach (var item in NamespaceVisitor.Namespaces)
                 {
-                    NamespaceNames.Add( GetFullName(item));
+                    NamespaceNames.Add( item.Name.ToString());
                 }
                 
             }
