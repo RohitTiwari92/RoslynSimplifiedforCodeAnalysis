@@ -20,11 +20,11 @@ namespace RoslynSimplifiedforCodeAnalysis.Modules.ClassModule
 
         public override SyntaxNode VisitClassDeclaration(ClassDeclarationSyntax node)
         {
-            node = (ClassDeclarationSyntax)base.VisitClassDeclaration(node);
+          
 
             //string className = node.Identifier.ValueText;
             Classes.Add(node); // save your visited classes
-
+            base.VisitClassDeclaration(node);
             return node;
         }
     }

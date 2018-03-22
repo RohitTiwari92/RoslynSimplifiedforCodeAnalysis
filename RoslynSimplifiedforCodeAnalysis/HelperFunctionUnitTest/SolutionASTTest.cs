@@ -18,6 +18,7 @@ namespace HelperFunctionUnitTest
         }
 
         [TestMethod]
+        [TestCategory("CoreEngine")]
         public void TestMethodSolutionAST()
         {
             AST sast=new AST();

@@ -11,7 +11,7 @@ namespace RoslynSimplifiedforCodeAnalysis.Modules.MethodModule
 {
     public class GetAllTheMethodofClass
     {
-        public List<string> GetClassNameList(ClassDeclarationSyntax classsyn)
+        public List<string> GetMethodNameList(ClassDeclarationSyntax classsyn)
         {
             IEnumerable<MethodDeclarationSyntax> methods = GetMethodModelList(classsyn);
             return methods.Select(method => method.Identifier.ValueText).ToList();

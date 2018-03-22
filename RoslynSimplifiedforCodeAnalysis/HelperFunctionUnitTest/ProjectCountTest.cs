@@ -16,6 +16,7 @@ namespace HelperFunctionUnitTest
             solutionpath = ConfigurationManager.AppSettings["TestPath"] + @"HelperTestSubject\HelperTestSubject.sln";
         }
         [TestMethod]
+        [TestCategory("CoreEngine")]
         public void TestCountProjectsInSolutionFile()
         {
             RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
@@ -26,6 +27,7 @@ namespace HelperFunctionUnitTest
         }
 
         [TestMethod]
+        [TestCategory("CoreEngine")]
         public void TestCheckforProjectNameInSolutionFile()
         {
             RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
@@ -36,6 +38,7 @@ namespace HelperFunctionUnitTest
         }
 
         [TestMethod]
+        [TestCategory("CoreEngine")]
         public void TestCountProjectModelsInSolutionFile()
         {
             RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
@@ -46,6 +49,7 @@ namespace HelperFunctionUnitTest
         }
 
         [TestMethod]
+        [TestCategory("CoreEngine")]
         public void TestProjectCompilation()
         {
             RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();

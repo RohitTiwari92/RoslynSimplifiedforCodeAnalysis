@@ -8,5 +8,9 @@ namespace HelperTestSubject
 {
     public class Class1
     {
+        public void testmethod(int i)
+        {
+            
+        }
     }
 }
