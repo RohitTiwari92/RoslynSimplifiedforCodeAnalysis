@@ -219,6 +219,7 @@
     <Compile Include="NamespaceTest.cs" />
     <Compile Include="ClassTest.cs" />
     <Compile Include="MethodTest.cs" />
+    <Compile Include="InterfaceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

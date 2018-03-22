@@ -185,6 +185,8 @@
     <Compile Include="Init.cs" />
     <Compile Include="Modules\ClassModule\ClassVirtualizationVisitor.cs" />
     <Compile Include="Modules\Helper\SyntaxNodeHelper.cs" />
+    <Compile Include="Modules\Interface\GettheInterfaceListFromProjectModel.cs" />
+    <Compile Include="Modules\Interface\InterfaceVirtualizationVisitor.cs" />
     <Compile Include="Modules\MethodModule\GetAllTheMethodofClass.cs" />
     <Compile Include="Modules\ClassModule\GettheClassListFromProjectModel.cs" />
     <Compile Include="Modules\NamespaceModule\GettheNamespaceListFromProjectModel.cs" />

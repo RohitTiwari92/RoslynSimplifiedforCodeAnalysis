@@ -15,7 +15,7 @@ namespace RoslynSimplifiedforCodeAnalysis.Modules.NamespaceModule
         {
             Namespaces = new List<NamespaceDeclarationSyntax>();
         }
-
+        
         public List<NamespaceDeclarationSyntax> Namespaces { get; set; }
 
         public override SyntaxNode VisitNamespaceDeclaration(NamespaceDeclarationSyntax node)
