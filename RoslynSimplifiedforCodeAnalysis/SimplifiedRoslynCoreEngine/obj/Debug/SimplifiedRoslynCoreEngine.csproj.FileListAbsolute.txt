@@ -1,0 +1,1 @@
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\SimplifiedRoslynCoreEngine\obj\Debug\SimplifiedRoslynCoreEngine.csprojResolveAssemblyReference.cache

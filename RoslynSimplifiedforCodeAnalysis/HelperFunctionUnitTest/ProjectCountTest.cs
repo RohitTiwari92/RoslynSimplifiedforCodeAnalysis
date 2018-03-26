@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule;
+using CoreEngine.Modules.ProjectModule;
 
 namespace HelperFunctionUnitTest
 {
@@ -19,7 +19,7 @@ namespace HelperFunctionUnitTest
         [TestCategory("CoreEngine")]
         public void TestCountProjectsInSolutionFile()
         {
-            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            CoreEngine.Modules.SolutionModule.AST sast = new CoreEngine.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
             GettheProjectListFromSolutionAst projast =new GettheProjectListFromSolutionAst();
             var pres=projast.GetProjectNameList(res);
@@ -30,7 +30,7 @@ namespace HelperFunctionUnitTest
         [TestCategory("CoreEngine")]
         public void TestCheckforProjectNameInSolutionFile()
         {
-            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            CoreEngine.Modules.SolutionModule.AST sast = new CoreEngine.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
             GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectNameList(res);
@@ -41,7 +41,7 @@ namespace HelperFunctionUnitTest
         [TestCategory("CoreEngine")]
         public void TestCountProjectModelsInSolutionFile()
         {
-            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            CoreEngine.Modules.SolutionModule.AST sast = new CoreEngine.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
             GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectModelList(res);
@@ -52,7 +52,7 @@ namespace HelperFunctionUnitTest
         [TestCategory("CoreEngine")]
         public void TestProjectCompilation()
         {
-            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            CoreEngine.Modules.SolutionModule.AST sast = new CoreEngine.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
             GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectModelList(res);

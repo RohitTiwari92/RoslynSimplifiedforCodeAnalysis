@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule;
+using CoreEngine.Modules.SolutionModule;
 using System.IO;
 namespace HelperFunctionUnitTest
 {

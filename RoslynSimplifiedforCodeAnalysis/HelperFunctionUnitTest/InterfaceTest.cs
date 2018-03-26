@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RoslynSimplifiedforCodeAnalysis.Modules.ClassModule;
-using RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule;
-using RoslynSimplifiedforCodeAnalysis.Modules.Interface;
+using CoreEngine.Modules.ClassModule;
+using CoreEngine.Modules.ProjectModule;
+using CoreEngine.Modules.Interface;
 
 namespace HelperFunctionUnitTest
 {
@@ -22,7 +22,7 @@ namespace HelperFunctionUnitTest
         [TestCategory("CoreEngine")]
         public void InterfaceCountTest()
         {
-            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            CoreEngine.Modules.SolutionModule.AST sast = new CoreEngine.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
             GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectModelList(res);
@@ -37,7 +37,7 @@ namespace HelperFunctionUnitTest
         [TestCategory("CoreEngine")]
         public void InterfaceNameTest()
         {
-            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            CoreEngine.Modules.SolutionModule.AST sast = new CoreEngine.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
             GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectModelList(res);

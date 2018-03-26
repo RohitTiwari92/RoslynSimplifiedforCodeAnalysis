@@ -230,6 +230,10 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CoreEngine\CoreEngine.csproj">
+      <Project>{7d3e89cb-ff92-4f68-8aa8-d19e43510d71}</Project>
+      <Name>CoreEngine</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis.csproj">
       <Project>{f6ed5129-a8c0-4dec-878b-a3b7f23e5d91}</Project>
       <Name>RoslynSimplifiedforCodeAnalysis</Name>

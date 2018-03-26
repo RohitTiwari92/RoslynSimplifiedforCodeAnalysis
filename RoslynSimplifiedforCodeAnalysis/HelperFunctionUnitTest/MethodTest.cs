@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RoslynSimplifiedforCodeAnalysis.Modules.ClassModule;
-using RoslynSimplifiedforCodeAnalysis.Modules.MethodModule;
-using RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule;
+using CoreEngine.Modules.ClassModule;
+using CoreEngine.Modules.MethodModule;
+using CoreEngine.Modules.ProjectModule;
 
 namespace HelperFunctionUnitTest
 {
@@ -23,7 +23,7 @@ namespace HelperFunctionUnitTest
         [TestCategory("CoreEngine")]
         public void MethodCountTest()
         {
-            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            CoreEngine.Modules.SolutionModule.AST sast = new CoreEngine.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
             GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectModelList(res);
@@ -45,7 +45,7 @@ namespace HelperFunctionUnitTest
         [TestCategory("CoreEngine")]
         public void MethodNameTest()
         {
-            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            CoreEngine.Modules.SolutionModule.AST sast = new CoreEngine.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
             GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectModelList(res);

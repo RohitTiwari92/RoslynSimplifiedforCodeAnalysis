@@ -183,18 +183,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Init.cs" />
-    <Compile Include="Modules\ClassModule\ClassVirtualizationVisitor.cs" />
-    <Compile Include="Modules\Helper\SyntaxNodeHelper.cs" />
-    <Compile Include="Modules\Interface\GettheInterfaceListFromProjectModel.cs" />
-    <Compile Include="Modules\Interface\InterfaceVirtualizationVisitor.cs" />
-    <Compile Include="Modules\MethodModule\GetAllTheMethodofClass.cs" />
-    <Compile Include="Modules\ClassModule\GettheClassListFromProjectModel.cs" />
-    <Compile Include="Modules\NamespaceModule\GettheNamespaceListFromProjectModel.cs" />
-    <Compile Include="Modules\NamespaceModule\NamespaceVirtualizationVisitor.cs" />
-    <Compile Include="Modules\ProjectModule\AST.cs" />
-    <Compile Include="Modules\ProjectModule\CompileProject.cs" />
-    <Compile Include="Modules\ProjectModule\GettheProjectListFromSolutionAST.cs" />
-    <Compile Include="Modules\SolutionModule\AST.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

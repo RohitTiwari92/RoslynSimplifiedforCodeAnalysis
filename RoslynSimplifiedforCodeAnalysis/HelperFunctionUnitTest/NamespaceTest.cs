@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RoslynSimplifiedforCodeAnalysis.Modules.ProjectModule;
-using RoslynSimplifiedforCodeAnalysis.Modules.NamespaceModule;
+using CoreEngine.Modules.ProjectModule;
+using CoreEngine.Modules.NamespaceModule;
 
 namespace HelperFunctionUnitTest
 {
@@ -23,7 +23,7 @@ namespace HelperFunctionUnitTest
         [TestCategory("CoreEngine")]
         public  void NamespaceCountTest()
         {
-            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            CoreEngine.Modules.SolutionModule.AST sast = new CoreEngine.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
             GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectModelList(res);
@@ -31,7 +31,7 @@ namespace HelperFunctionUnitTest
             var pcomp =  cproj.Compile(pres[0]).Result;
             GettheNamespaceListFromProjectModel gprj = new GettheNamespaceListFromProjectModel();
             var resc = gprj.GetNamespaceNameList(pcomp);
-            Assert.AreEqual(resc.Count,2);
+            Assert.AreEqual(resc.Count,3);
 
         }
 
@@ -39,7 +39,7 @@ namespace HelperFunctionUnitTest
         [TestCategory("CoreEngine")]
         public void NamespaceNameTest()
         {
-            RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST sast = new RoslynSimplifiedforCodeAnalysis.Modules.SolutionModule.AST();
+            CoreEngine.Modules.SolutionModule.AST sast = new CoreEngine.Modules.SolutionModule.AST();
             var res = sast.GetAsTfromSolutionFile(solutionpath);
             GettheProjectListFromSolutionAst projast = new GettheProjectListFromSolutionAst();
             var pres = projast.GetProjectModelList(res);
