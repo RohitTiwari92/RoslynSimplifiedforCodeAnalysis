@@ -1,6 +1,7 @@
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\HelperFunctionUnitTest.dll.config
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\HelperFunctionUnitTest.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\HelperFunctionUnitTest.pdb
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\CoreEngine.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\Microsoft.Build.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\Microsoft.Build.Framework.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\Microsoft.Build.Tasks.Core.dll
@@ -40,6 +41,7 @@ D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\System.Xml.XmlDocument.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\System.Xml.XPath.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\CoreEngine.pdb
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\RoslynSimplifiedforCodeAnalysis.pdb
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\Microsoft.Build.xml
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\Microsoft.Build.Framework.xml
@@ -63,5 +65,3 @@ D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\obj\Debug\HelperFunctionUnitTest.csprojResolveAssemblyReference.cache
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\obj\Debug\HelperFunctionUnitTest.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\obj\Debug\HelperFunctionUnitTest.pdb
-D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\CoreEngine.dll
-D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\HelperFunctionUnitTest\bin\Debug\CoreEngine.pdb

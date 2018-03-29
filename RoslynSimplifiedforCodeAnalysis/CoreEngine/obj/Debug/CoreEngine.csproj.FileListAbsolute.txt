@@ -56,6 +56,5 @@ D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.CodeAnalysis.Workspaces.Desktop.xml
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\System.Collections.Immutable.xml
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\System.Reflection.Metadata.xml
-D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\obj\Debug\CoreEngine.csprojResolveAssemblyReference.cache
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\obj\Debug\CoreEngine.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\obj\Debug\CoreEngine.pdb
