@@ -7,7 +7,7 @@ using Microsoft.CodeAnalysis;
 
 namespace CoreEngine.Modules.Helper
 {
-    static class SyntaxNodeHelper
+   public static class SyntaxNodeHelper
     {
         public static bool TryGetParentSyntax<T>(SyntaxNode syntaxNode, out T result)
             where T : SyntaxNode
