@@ -18,7 +18,7 @@ namespace ModelFillerFromCoreEngine
 {
     public class Filler
     {
-        public void FillModel(string Solfilepath)
+        public SolutionModel FillModel(string Solfilepath)
         {
             SolutionModel solmodel = new SolutionModel();
             AST solast = new AST();
@@ -31,6 +31,7 @@ namespace ModelFillerFromCoreEngine
             {
                 FIllProjectModel(Pitem, projmodellidst);
             }
+            return solmodel;
         }
 
         private static void FIllProjectModel(Project Pitem, List<ProjectModel> projmodellidst)

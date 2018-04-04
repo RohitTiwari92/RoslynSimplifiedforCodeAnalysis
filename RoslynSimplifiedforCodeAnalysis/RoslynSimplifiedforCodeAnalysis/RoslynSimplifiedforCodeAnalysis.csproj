@@ -185,7 +185,20 @@
     <Compile Include="Init.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CoreEngine\CoreEngine.csproj">
+      <Project>{7d3e89cb-ff92-4f68-8aa8-d19e43510d71}</Project>
+      <Name>CoreEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelFillerFromCoreEngine\ModelFillerFromCoreEngine.csproj">
+      <Project>{1a8889d2-c3a7-4cab-b5a1-241c1a656028}</Project>
+      <Name>ModelFillerFromCoreEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RoslynSimplifiedModel\RoslynSimplifiedModel.csproj">
+      <Project>{38a576fc-2584-4d20-8284-36402099a8d1}</Project>
+      <Name>RoslynSimplifiedModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />

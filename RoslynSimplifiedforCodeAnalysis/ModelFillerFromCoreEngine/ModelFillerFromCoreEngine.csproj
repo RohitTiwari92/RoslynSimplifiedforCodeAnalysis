@@ -211,10 +211,6 @@
       <Project>{7d3e89cb-ff92-4f68-8aa8-d19e43510d71}</Project>
       <Name>CoreEngine</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis.csproj">
-      <Project>{f6ed5129-a8c0-4dec-878b-a3b7f23e5d91}</Project>
-      <Name>RoslynSimplifiedforCodeAnalysis</Name>
-    </ProjectReference>
     <ProjectReference Include="..\RoslynSimplifiedModel\RoslynSimplifiedModel.csproj">
       <Project>{38a576fc-2584-4d20-8284-36402099a8d1}</Project>
       <Name>RoslynSimplifiedModel</Name>
