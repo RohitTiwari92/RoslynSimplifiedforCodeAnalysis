@@ -14,6 +14,6 @@ namespace RoslynSimplifiedModel
         public Compilation CompliedProj { get; set; }
         public List<NamspaceModel> NamespacecustmodeList { get; set; }
 
-        public List<NamespaceDeclarationSyntax> NamespacemodeList { get; set; }
+       // public List<NamespaceDeclarationSyntax> NamespacemodeList { get; set; }
     }
 }

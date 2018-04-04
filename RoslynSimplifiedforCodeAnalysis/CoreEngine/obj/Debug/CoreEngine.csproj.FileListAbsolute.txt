@@ -58,3 +58,6 @@ D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\System.Reflection.Metadata.xml
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\obj\Debug\CoreEngine.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\obj\Debug\CoreEngine.pdb
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.Build.dll
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.Build.xml
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\obj\Debug\CoreEngine.csprojResolveAssemblyReference.cache
