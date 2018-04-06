@@ -30,7 +30,10 @@ namespace ModelFillerFromCoreEngine
             foreach (var Pitem in projectmodellist)
             {
                 FIllProjectModel(Pitem, projmodellidst);
+                
             }
+            solmodel.Projectlist=new List<ProjectModel>();
+            solmodel.Projectlist.AddRange(projmodellidst);
             return solmodel;
         }
 
@@ -40,7 +43,7 @@ namespace ModelFillerFromCoreEngine
             CompileProject Cproj = new CompileProject();
             pmodel.CompliedProj = Cproj.Compile(Pitem).Result;
             pmodel.project = Pitem;
-            projmodellidst.Add(pmodel);
+           
             GettheNamespaceListFromProjectModel nmmodel = new GettheNamespaceListFromProjectModel();
             List<NamespaceDeclarationSyntax> namespacemodeList = nmmodel.GetNamespaceModelList(pmodel.CompliedProj);
             List<NamspaceModel> Namespacecustmode = new List<NamspaceModel>();
@@ -51,7 +54,8 @@ namespace ModelFillerFromCoreEngine
             {
                 FillNamespaceModel(nsitem, AllClsmodel, Namespacecustmode);
             }
-            
+            pmodel.NamespacecustmodeList.AddRange(Namespacecustmode);
+            projmodellidst.Add(pmodel);
         }
 
         private static void FillNamespaceModel(NamespaceDeclarationSyntax nsitem, List<ClassDeclarationSyntax> AllClsmodel, List<NamspaceModel> Namespacecustmode)

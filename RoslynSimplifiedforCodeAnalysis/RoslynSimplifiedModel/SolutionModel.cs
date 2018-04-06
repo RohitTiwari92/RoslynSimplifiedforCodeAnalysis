@@ -10,6 +10,6 @@ namespace RoslynSimplifiedModel
     public class SolutionModel
     {
         public Solution SolDataAst { get; set; }
-        public List<ProjectModel> Projectlist { get; set; } 
+        public List<ProjectModel> Projectlist = new List<ProjectModel>(); 
     }
 }

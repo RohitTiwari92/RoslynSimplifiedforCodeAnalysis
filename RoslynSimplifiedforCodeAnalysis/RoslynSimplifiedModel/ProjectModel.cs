@@ -12,7 +12,7 @@ namespace RoslynSimplifiedModel
     {
         public Project project { get; set; }
         public Compilation CompliedProj { get; set; }
-        public List<NamspaceModel> NamespacecustmodeList { get; set; }
+        public List<NamspaceModel> NamespacecustmodeList =new List<NamspaceModel>();
 
        // public List<NamespaceDeclarationSyntax> NamespacemodeList { get; set; }
     }

@@ -10,7 +10,7 @@ namespace RoslynSimplifiedModel
     public class InterfaceModel
     {
         public InterfaceDeclarationSyntax Interfacedeclaration { get; set; }
-        public List<MethodModel> Methodmodels { get; set; }
-        public List<PropertyModel> Propertymodels { get; set; }
+        public List<MethodModel> Methodmodels = new List<MethodModel>();
+        public List<PropertyModel> Propertymodels = new List<PropertyModel>();
     }
 }

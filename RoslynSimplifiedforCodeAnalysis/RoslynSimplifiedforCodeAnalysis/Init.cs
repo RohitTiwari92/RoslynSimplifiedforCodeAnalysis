@@ -19,7 +19,7 @@ namespace RoslynSimplifiedforCodeAnalysis
         public SolutionModel Process()
         {
             Filler fillmodel=new Filler();
-           return fillmodel.FillModel(Path);
+            return fillmodel.FillModel(Path);
         }
     }
 }

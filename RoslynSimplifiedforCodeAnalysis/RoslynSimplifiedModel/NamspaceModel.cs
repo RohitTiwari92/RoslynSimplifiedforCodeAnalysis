@@ -10,7 +10,7 @@ namespace RoslynSimplifiedModel
   public  class NamspaceModel
     {
         public NamespaceDeclarationSyntax Namespacedeclaration { get; set; }
-        public List<ClassModel> Classmodel { get; set; }
-        public List<InterfaceModel> Interfacemodel { get; set; }
+        public List<ClassModel> Classmodel = new List<ClassModel>();
+        public List<InterfaceModel> Interfacemodel =new List<InterfaceModel>();
     }
 }

@@ -1,6 +1,7 @@
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\CoreEngine.dll.config
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\CoreEngine.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\CoreEngine.pdb
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.Build.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.Build.Framework.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.Build.Tasks.Core.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.Build.Utilities.Core.dll
@@ -38,6 +39,7 @@ D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\System.Xml.XmlDocument.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\System.Xml.XPath.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.Build.xml
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.Build.Framework.xml
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.Build.Utilities.Core.xml
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.CodeAnalysis.pdb
@@ -56,8 +58,6 @@ D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.CodeAnalysis.Workspaces.Desktop.xml
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\System.Collections.Immutable.xml
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\System.Reflection.Metadata.xml
+D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\obj\Debug\CoreEngine.csprojResolveAssemblyReference.cache
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\obj\Debug\CoreEngine.dll
 D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\obj\Debug\CoreEngine.pdb
-D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.Build.dll
-D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\bin\Debug\Microsoft.Build.xml
-D:\Rohit\PRoject\RoslynSimplifiedforCodeAnalysis\RoslynSimplifiedforCodeAnalysis\CoreEngine\obj\Debug\CoreEngine.csprojResolveAssemblyReference.cache
